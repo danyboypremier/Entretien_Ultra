@@ -5,51 +5,92 @@
     <title>Entretien Ultra - Accueil</title>
     <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="../css/entretienultra.css" rel="stylesheet" type="text/css">
-    <script src="../js/bootstrap.js" charset="UTF-8"></script>
 </head>
 <body>
-<header class="container-fluid">
-    <div class="row text-center">
-        <nav id="menu_nav" class="col-sm-8 col-sm-offset-2">
-            <h3>
-                <a id="href_accueil" href="">Accueil</a>
-                <a id="href_services" href="">Services</a>
-                <a id="href_a_propos" href="">À propos</a>
-                <a id="href_contactez_nous" href="">Contactez-nous</a>
-            </h3>
-        </nav>
-    </div>
-</header>
-<div class="row">
-    <div class="class_contenu col-sm-4 col-sm-offset-2">
-        <address>
-            <strong>Twitter, Inc.</strong><br>
-            795 Folsom Ave, Suite 600<br>
-            San Francisco, CA 94107<br>
-            <abbr title="Phone">P:</abbr> (123) 456-7890
-        </address>
 
-        <address>
-            <strong>Full Name</strong><br>
-            <a href="mailto:#">first.last@example.com</a>
-        </address>
+<nav class="navbar navbar-custom navbar-inverse navbar-fixed-top text-uppercase" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav_menu">
+                <span class="sr-only">Menu</span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand nav_color" href="../index.html">Entretien Ultra</a>
+        </div>
+        <div class="collapse navbar-collapse nav_color" id="nav_menu">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="../index.html#div_a_propos">À Propos</a>
+                </li>
+                <li>
+                    <a href="../index.html#div_services">Services</a>
+                </li>
+                <li>
+                    <a href="contactez_nous.html">Contact</a>
+                </li>
+            </ul>
+        </div>
     </div>
-    <div class="class_contenu col-sm-4">
-        colomne
-    </div>
+</nav>
 
+<div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1">
+                <h2 class="title-color">Contact</h2>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-3 col-md-offset-1 text-right">
+                <h3><strong>Titre</strong></h3>
+            </div>
+            <div class="col-md-3">
+                <address>
+                    <strong>Nom</strong><br>
+                    <strong>Téléphone :</strong> (123) 456-7890
+                </address>
+            </div>
+            <div class="col-md-4">
+                <img src="../images/default_profile.jpg" class="center-block img-responsive" alt="Responsive image">
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-3 col-md-offset-1 text-right">
+                <h3><strong>Titre</strong></h3>
+            </div>
+            <div class="col-md-3">
+                <address>
+                    <strong>Nom</strong><br>
+                    <strong>Téléphone :</strong> (123) 456-7890
+                </address>
+            </div>
+            <div class="col-md-4">
+                <img src="../images/default_profile.jpg" class="center-block img-responsive" alt="Responsive image">
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <img src="../images/logo.jpg" class="center-block img-responsive" alt="Responsive image">
+            </div>
+        </div>
+    </div>
 </div>
 
+<hr>
 
-
-
-
-
-
-
-<footer>
-
-
+<footer class="text-center text-uppercase">
+    <h6>
+        tous droits réservés entretien ultra 2015
+    </h6>
 </footer>
 </body>
 </html>
