@@ -14,7 +14,6 @@ body {
     margin-right: auto;
 }
 
-
 .navbar-custom {
     background-color: white;
     border-color: rgba(255,0,0,1);
@@ -30,8 +29,6 @@ body {
 .navbar-custom .nav_color .nav a:focus{
     color: rgba(255,0,0,.5);
 }
-
-
 
 header.carousel {
     height: 100%;
@@ -59,18 +56,13 @@ header.carousel .fill {
     background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(255,0,0,.9) 100%);
 }
 
-
-
 .title-color {
     color: rgba(255,0,0,1);
 }
 
-
 #img_contact {
     width: 100%;
 }
-
-
 
 footer {
     width: 100%;
